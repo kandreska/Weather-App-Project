@@ -17,3 +17,108 @@
           </script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
+
+<body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm w-100"
+              />
+            </div>
+            <div class=""col-3">
+              <button class ="btn btn-success w-100" id="current-location-button">Current</button>
+            </div>
+          </div>
+        </form>
+
+    <h1 id="date"></h1>
+    <h2> Welcome </h2>
+    <h3 id="city">
+      
+    </h3>
+    <p>
+      94°F
+    <span class="temperature" id="temperature"></span>
+    <span class ="units">°C</span>
+  
+       <br>
+      Sunny
+      <br>
+     <img src="images/sun.png" width=" 50 px" />
+      <br>
+    </p>
+    <div class="col-6">
+			<ul>
+				<li>Humidity: <span id="humidity"></span>%</li>
+				<li>Wind: <span id="wind"></span> km/h</li>
+			</ul>
+		</div>    
+   <h4>
+    5 Day Forecast
+   </h4>
+   <div class="row">
+    <div class="col-2">
+      Sun
+      </div>
+    <div class="col-2">
+      Mon
+      </div>
+    <div class="col-2">
+      Tues
+      </div>
+    <div class="col-2">
+      Wed
+      </div>
+    <div class="col-2">
+      Thurs
+    </div>
+
+    <div class="row">
+    <div class="col-2">
+         <img src="images/sun.png" width=" 50 px" /> </div>
+    <div class="col-2">
+          <img src="images/sun.png" width=" 50 px" /> </div>
+    <div class="col-2">
+         <img src="images/sun.png" width=" 50 px" /> </div>
+    <div class="col-2">
+         <img src="images/sun.png" width=" 50 px" /> </div>
+    <div class="col-2">
+          <img src="images/sun.png" width=" 50 px" /> </div>
+
+    <div class="row">
+    <div class="col-2">
+      93°F </div>
+    <div class="col-2">
+      94°F </div>
+    <div class="col-2">
+      95°F </div>
+    <div class="col-2">
+      97°F </div>
+    <div class="col-2">
+      94°F </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <script src="src/index.js"></script>
+  </body>
+</html>
